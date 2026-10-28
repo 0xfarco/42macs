@@ -52,4 +52,6 @@
 
 (global-set-key (kbd "C-c c b") #'compile)
 (global-set-key (kbd "C-c c r") #'recompile)
+
+(require 'dired)
 (define-key dired-mode-map (kbd "/") 'dired-create-empty-file)
